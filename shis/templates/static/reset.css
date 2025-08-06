@@ -33,6 +33,9 @@ body {
 }
 ol, ul {
   list-style: none;
+   background-color: hsl(205deg, 20%, 32%);
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
 }
 blockquote, q {
   quotes: none;
